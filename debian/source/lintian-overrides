@@ -1,0 +1,5 @@
+python-os-service-types source: file-without-copyright-information
+python-os-service-types source: no-debian-changes
+python-os-service-types source: source-contains-prebuilt-windows-binary
+python-os-service-types source: source-is-missing
+python-os-service-types source: source-package-encodes-python-version
