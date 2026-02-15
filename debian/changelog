@@ -1,0 +1,5 @@
+python-os-service-types (100:1.7.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/openstack/os-service-types/releases/tag/1.7.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Sun, 11 Feb 2024 10:29:39 +0800
