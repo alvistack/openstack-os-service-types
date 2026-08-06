@@ -1,16 +1,17 @@
 [build-system]
-requires = ["pbr>=6.1.1"]
-build-backend = "pbr.build"
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "os-service-types"
+version = "1.9.0"
 description = "Python library for consuming OpenStack sevice-types-authority data"
 authors = [
     {name = "OpenStack", email = "openstack-discuss@lists.openstack.org"},
 ]
 readme = {file = "README.rst", content-type = "text/x-rst"}
-license = "Apache-2.0"
-dynamic = ["version", "dependencies"]
+license = {text = "Apache-2.0"}
+dynamic = ["dependencies"]
 requires-python = ">=3.11"
 classifiers = [
     "Environment :: OpenStack",
